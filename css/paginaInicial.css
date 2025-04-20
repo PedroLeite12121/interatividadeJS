@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Borel&family=Lilita+One&family=Pacifico&family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+PL:wght@100..400&family=Playwrite+RO:wght@100..400&family=Poetsen+One&display=swap');
+.container{
+    box-shadow: 0 0.5vh 4vh 0.1vh black;
+    margin-top: 13vh;
+    padding-bottom: 20vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 49vh;
+    width: 100%;
+    background-color: white;
+}
+
+.containerConteudo img{
+    margin-right: 8vh;
+    background-color: rgb(245, 176, 176);
+    padding: 2vh;
+    border-radius: 100vh;
+    border: 1.5vh solid rgb(21, 110, 3);
+    margin-top: 5vh;
+    margin-left: 20vh;
+    width: 40vh;
+    height: 40vh;
+}
+
+.container #florA{
+    transform: rotate(270deg);
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+}
+
+.container #florB{
+    margin: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 38vh;
+}
+
+.container h2{
+    margin-top: 10vh;
+    font-weight:300;
+    font-family: Alfa Slab One;
+    font-size: 7vh;
+}
+
+.containerConteudo{
+    align-items: center;
+    display: flex;
+    width: 70%;
+}
+
+.container button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Lilita One;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 1vh;
+    padding:3svh;
+    font-size: 7vh;
+    position: absolute;
+    bottom: 4vh;
+    width:40vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgb(0, 143, 0);
+    transition: 0.5s;
+}
+
+.container button:hover{
+    background-color: rgb(22, 194, 50);
+    transition: 0.5s;
+}
+
